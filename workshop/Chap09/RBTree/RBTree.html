@@ -1,54 +1,44 @@
-<HTML>
-<HEAD>
-<TITLE>Red-Black Tree</TITLE>
-</HEAD>
+<!DOCTYPE html>
+<html>
 
-<BODY>
+<head>
+  <title>Red-Black Tree</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
 
-   <TABLE BORDER UNITS=PIXELS COLSPEC="L330 L250" CELLPADDING=7>
-   <CAPTION><STRONG>Lafore's Red-Black Tree</STRONG></CAPTION>
-      <TH>Red-Black Tree
-      <TH>Operation
-      <TR>
-      <TD>
-         <APPLET
-            CODE=RBTree.class
-            WIDTH=440
-            HEIGHT=320>
-         </APPLET>
-      <TD>
-           <BR>
-            <FONT SIZE=2>
-<STRONG>Click</STRONG> on node to move arrow to it
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Start</STRONG> makes a new tree with
-one node
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Ins</STRONG> inserts a new node with
-value N
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Del</STRONG> deletes the node with value N
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Flip</STRONG> swaps colors between black parent
-(arrow) and two red children
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>RoL</STRONG> rotates left around node with arrow
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>RoR</STRONG> rotates right around node with arrow
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>R/B</STRONG> toggles color of node with arrow
-            </FONT><P>
-            <FONT SIZE=2>
-(Type N into "Number" box.)
-            </FONT><P>
-   </TABLE>
+<body>
+  <table border cellpadding="7">
+    <h1>
+      <strong>Lafore's Red-Black Tree</strong>
+    </h1>
+    <a href="../../../index.html">Home</a>
+    <tr>
+      <th>Red-Black Tree</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>
+        <applet code="RBTree.class" height="320" width="440">
+        </applet>
+      </td>
+      <td>
+        <br>
+        <strong>Click</strong> on node to move arrow to it
+        <p><strong>Start</strong> makes a new tree with one node</p>
+        <p><strong>Ins</strong> inserts a new node with value N</p>
+        <p><strong>Del</strong> deletes the node with value N</p>
+        <p><strong>Flip</strong> swaps colors between black parent (arrow) and two red children</p>
+        <p><strong>RoL</strong> rotates left around node with arrow</p>
+        <p><strong>RoR</strong> rotates right around node with arrow
+        </p>
+        <p><strong>R/B</strong> toggles color of node with arrow</p>
+        <p>(Type N into "Number" box.)</p>
+        <p></p>
+      </td>
+    </tr>
+  </table>
+</body>
 
-</BODY>
-</HTML>
+</html>

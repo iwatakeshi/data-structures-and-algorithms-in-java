@@ -1,42 +1,39 @@
-<HTML>
-<HEAD>
-<TITLE>Heap</TITLE>
-</HEAD>
+<!DOCTYPE html>
+<html>
 
-<BODY>
+<head>
+  <title>Heap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
 
-   <TABLE BORDER UNITS=PIXELS COLSPEC="L330 L250" CELLPADDING=7>
-   <CAPTION><STRONG>Lafore's Heap</STRONG></CAPTION>
-      <TH>Heap
-      <TH>Operation
-      <TR>
-      <TD>
-         <APPLET
-            CODE=Heap.class
-            WIDTH=440
-            HEIGHT=300>
-         </APPLET>
-      <TD>
-            <BR>
-            <FONT SIZE=2>
-<STRONG>Fill</STRONG> creates new heap with N nodes.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Chng</STRONG> changes selected node to value N.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Click</STRONG> on node to select it.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Rem</STRONG> removes node with highest key.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Ins</STRONG> inserts new node with value N.
-            </FONT><P>
-            <FONT SIZE=2>
-(Type N into "Enter number" box.)
-            </FONT>
-   </TABLE>
+<body>
+  <table border cellpadding="7">
+    <h1>
+      <strong>Lafore's Heap</strong>
+    </h1>
+    <a href="../../../index.html">Home</a>
+    <tr>
+      <th>Heap</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>
+        <applet code="Heap.class" height="300" width="440">
+        </applet>
+      </td>
+      <td>
+        <br>
+        <strong>Fill</strong> creates new heap with N nodes.
+        <p><strong>Chng</strong> changes selected node to value N.</p>
+        <p><strong>Click</strong> on node to select it.</p>
+        <p><strong>Rem</strong> removes node with highest key.</p>
+        <p><strong>Ins</strong> inserts new node with value N.</p>
+        <p>(Type N into "Enter number" box.)</p>
+      </td>
+    </tr>
+  </table>
+</body>
 
-</BODY>
-</HTML>
+</html>

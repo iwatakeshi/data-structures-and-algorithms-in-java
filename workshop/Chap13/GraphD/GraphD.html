@@ -1,41 +1,40 @@
-<HTML>
-<HEAD>
-<TITLE>Directed, Unweighted Graph</TITLE>
-</HEAD>
+<!DOCTYPE html>
+<html>
 
-<BODY>
+<head>
+  <title>Directed, Unweighted Graph</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
 
-   <TABLE BORDER UNITS=PIXELS COLSPEC="L330 L250" CELLPADDING=7>
-   <CAPTION><STRONG>Lafore's Directed,
-Unweighted Graph</STRONG></CAPTION>
-      <TH>Graph
-      <TH>Operation
-      <TR>
-      <TD>
-         <APPLET
-            CODE=GraphD.class
-            WIDTH=440
-            HEIGHT=320>
-         </APPLET>
-      <TD>
-            <BR>
-            <FONT SIZE=2>
-<STRONG>Double-click</STRONG> to create new vertex.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Drag</STRONG> from vertex to vertex to create
-edge.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>New</STRONG> clears an old graph.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Topo</STRONG> carries out topological sort.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>View</STRONG> toggles between graph and adjacency
-matrix.
-            </FONT>
-   </TABLE>
-</BODY>
-</HTML>
+<body>
+  <table border cellpadding="7">
+    <h1>
+      <strong>Lafore's Directed, Unweighted Graph</strong>
+    </h1>
+    <a href="../../../index.html">Home</a>
+    <tr>
+      <th>Graph</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>
+        <applet code="GraphD.class" height="320" width="440">
+        </applet>
+      </td>
+      <td>
+        <br>
+        <strong>Double-click</strong> to create new vertex.
+        <p><strong>Drag</strong> from vertex to vertex to create edge.
+        </p>
+        <p><strong>New</strong> clears an old graph.</p>
+        <p><strong>Topo</strong> carries out topological sort.</p>
+        <p><strong>View</strong> toggles between graph and adjacency matrix.
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

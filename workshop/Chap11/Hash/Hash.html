@@ -1,46 +1,39 @@
-<HTML>
-<HEAD>
-<TITLE>Linear-Probe Hash Table</TITLE>
-</HEAD>
+<!DOCTYPE html>
+<html>
 
-<BODY>
+<head>
+  <title>Linear-Probe Hash Table</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
 
-   <TABLE BORDER UNITS=PIXELS COLSPEC="L330 L250" CELLPADDING=7>
-   <CAPTION><STRONG>Lafore's Linear-Probe Hash Table</STRONG></CAPTION>
-      <TH>Hash Table
-      <TH>Operation
-      <TR>
-      <TD>
-         <APPLET
-            CODE=Hash.class
-            WIDTH=440
-            HEIGHT=320>
-         </APPLET>
-      <TD>
-           <BR>
-            <FONT SIZE=2>
-<STRONG>New</STRONG> creates hash table
-with N cells (60 max)
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Fill</STRONG> inserts N items into
-table.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Ins</STRONG> inserts new item with
-key N.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Del</STRONG> deletes item with
-key N.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Find</STRONG> finds item with
-key N.
-            </FONT><P>
-            <FONT SIZE=2>
-(Type N into "Enter number" box.)
-            </FONT>
-   </TABLE>
-</BODY>
-</HTML>
+<body>
+  <table border cellpadding="7">
+    <h1>
+      <strong>Lafore's Linear-Probe Hash Table</strong>
+    </h1>
+    <a href="../../../index.html">Home</a>
+    <tr>
+      <th>Hash Table</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>
+        <applet code="Hash.class" height="320" width="440">
+        </applet>
+      </td>
+      <td>
+        <br>
+        <strong>New</strong> creates hash table with N cells (60 max)
+        <p><strong>Fill</strong> inserts N items into table.</p>
+        <p><strong>Ins</strong> inserts new item with key N.</p>
+        <p><strong>Del</strong> deletes item with key N.</p>
+        <p><strong>Find</strong> finds item with key N.</p>
+        <p>(Type N into "Enter number" box.)</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

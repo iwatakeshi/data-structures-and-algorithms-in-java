@@ -4,21 +4,21 @@
 ////////////////////////////////////////////////////////////////
 class Queue
    {
-   private final int SIZE = 20;
+   private final int size = 20;
    private int[] queArray;
    private int front;
    private int rear;
 // -------------------------------------------------------------
    public Queue()            // constructor
       {
-      queArray = new int[SIZE];
+      queArray = new int[size];
       front = 0;
       rear = -1;
       }
 // -------------------------------------------------------------
    public void insert(int j) // put item at rear of queue
       {
-      if(rear == SIZE-1)
+      if(rear == size-1)
          rear = -1;
       queArray[++rear] = j;
       }
@@ -26,14 +26,14 @@ class Queue
    public int remove()       // take item from front of queue
       {
       int temp = queArray[front++];
-      if(front == SIZE)
+      if(front == size)
          front = 0;
       return temp;
       }
 // -------------------------------------------------------------
    public boolean isEmpty()  // true if queue is empty
       {
-      return ( rear+1==front || (front+SIZE-1==rear) );
+      return ( rear+1==front || (front+size-1==rear) );
       }
 // -------------------------------------------------------------
    }  // end class Queue

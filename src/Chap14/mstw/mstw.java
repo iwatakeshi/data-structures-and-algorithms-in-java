@@ -20,13 +20,13 @@ class Edge
 class PriorityQ
    {
    // array in sorted order, from max at 0 to min at size-1
-   private final int SIZE = 20;
+   private final int size = 20;
    private Edge[] queArray;
    private int size;
 // -------------------------------------------------------------
    public PriorityQ()            // constructor
       {
-      queArray = new Edge[SIZE];
+      queArray = new Edge[size];
       size = 0;
       }
 // -------------------------------------------------------------

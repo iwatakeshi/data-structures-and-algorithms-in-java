@@ -1,41 +1,40 @@
-<HTML>
-<HEAD>
-<TITLE>Weighted, Undirected Graph</TITLE>
-</HEAD>
+<!DOCTYPE html>
+<html>
 
-<BODY>
+<head>
+  <title>Weighted, Undirected Graph</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-   <TABLE BORDER UNITS=PIXELS COLSPEC="L330 L250" CELLPADDING=7>
-   <CAPTION><STRONG>Lafore's Weighted,
-Undirected Graph</STRONG></CAPTION>
-      <TH>Graph
-      <TH>Operation
-      <TR>
-      <TD>
-         <APPLET
-            CODE=GraphW.class
-            WIDTH=440
-            HEIGHT=320>
-         </APPLET>
-      <TD>
-            <BR>
-            <FONT SIZE=2>
-<STRONG>Double-click</STRONG> to create new vertex.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Drag</STRONG> from vertex to vertex to create
-edge. (Enter weight first.)
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>New</STRONG> clears an old graph.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>Tree</STRONG> creates minimum spanning tree.
-            </FONT><P>
-            <FONT SIZE=2>
-<STRONG>View</STRONG> toggles between graph and adjacency
-matrix.
-            </FONT>
-   </TABLE>
-</BODY>
-</HTML>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+  <table border cellpadding="7">
+    <h1>
+      <strong>Lafore's Weighted, Undirected Graph</strong>
+    </h1>
+    <a href="../../../index.html">Home</a>
+    <tr>
+      <th>Graph</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>
+        <applet code="GraphW.class" height="320" width="440">
+        </applet>
+      </td>
+      <td>
+        <br>
+        <strong>Double-click</strong> to create new vertex.
+        <p><strong>Drag</strong> from vertex to vertex to create edge. (Enter weight first.)</p>
+        <p><strong>New</strong> clears an old graph.</p>
+        <p><strong>Tree</strong> creates minimum spanning tree.</p>
+        <p><strong>View</strong> toggles between graph and adjacency matrix.
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

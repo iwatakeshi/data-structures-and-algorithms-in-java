@@ -4,13 +4,13 @@
 ////////////////////////////////////////////////////////////////
 class StackX
    {
-   private final int SIZE = 20;
+   private final int size = 20;
    private int[] st;
    private int top;
 // -------------------------------------------------------------
    public StackX()           // constructor
       {
-      st = new int[SIZE];    // make array
+      st = new int[size];    // make array
       top = -1;
       }
 // -------------------------------------------------------------
