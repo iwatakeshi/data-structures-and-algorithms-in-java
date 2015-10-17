@@ -1,6 +1,6 @@
-READER FILES
+Source Files
 ============
-The files in this folder, \ReaderFiles\, contain both source code
+The files in this folder, \src\, contain both source code
 and executable code for the example programs presented in the text
 of "Data Structures and Algorithms in Java," 2nd Edition. They are
 available to any reader of the book.
