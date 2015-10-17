@@ -2,8 +2,11 @@
 Robert Lafore
 7/26/02
 
-List of Applets
----------------
+edited by Takeshi Iwana
+10/17/15
+
+Chapters
+==================
 Chapter 1 -- Overview
    (No applets)
 
