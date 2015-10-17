@@ -9,7 +9,7 @@ edited by Takeshi Iwana
 
 10/17/15
 
-## Chapters
+## Chapters / List of Applets
 
 Chapter 1 -- Overview
 
